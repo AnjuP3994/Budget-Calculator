@@ -1,0 +1,73 @@
+.body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmXKwDy7b6UQx9qE5gS8Q8T0o64U8y2FPZQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lilita One', cursive; 
+    height: 27.2cm;
+}
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbarbrand{
+    font-family: 'Lilita One', cursive; 
+    font-size: 1.5cm;
+}
+#container_1{
+    border-radius: 30px;
+    background-color: rgba(0, 118, 148, 0.311);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#col1{
+    border-radius: 30px;
+    background-color: rgba(0, 118, 148, 0.311);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#container_2{
+    border-radius: 30px;
+    background-color: rgba(0, 118, 148, 0.311);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#line{
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+
+@media (max-width:450px){
+    .body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar{
+        padding: 0%;
+        margin: 0%;
+        width: fit-content;
+    }
+    #container_1{
+        padding: 0%;
+        margin: 0%;
+        width: max-content;
+    }
+    #container_2{
+        padding: 0%;
+        margin: 0%;
+        width: max-content;
+    }
+    #col1{
+        padding: 0%;
+        margin: 0%;
+        width: max-content;
+    }
+    .incomeTable{
+        width: 100%;
+    }
+    #clearAllBox{
+        width: 100%;
+    }
+    .expenseTable{
+        width: 100%;
+    }
+}
