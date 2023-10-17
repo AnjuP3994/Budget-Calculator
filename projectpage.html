@@ -24,21 +24,21 @@
      <!-- navbar -->
      <nav class="navbar">
         <div class="container-fluid">
-            <h1 class="navbarbrand text-dark p-4 ms-4">
-                <img src="https://cdn-icons-png.flaticon.com/512/3774/3774769.png" alt="" width="70px" class="d-inline-block align-text-top">
+            <h1 class="navbarbrand text-dark p-2 ms-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/3774/3774769.png" alt="" width="50px" class="d-inline-block align-text-top">
                 BUDGET CALCULATOR
               </h1>
           <div>
-            <button class="btn btn-danger fs-5 me-5 px-3" onclick="logout()">LogOut</button>
+            <button class="btn btn-danger me-5 px-3" onclick="logout()">LogOut</button>
           </div>
         </div>
       </nav>
       <br>
 
       <!-- budget calculation area -->
-      <div id="container" class="container my-5">
+      <div id="container" class="container my-4 px-5">
         <!-- row 1 -->
-        <div class="row">
+        <div class="row px-5">
 
             <div  id="container_1" class="col-4 p-5">
                 <label class="income mt-5">Enter Income Source:</label>
@@ -46,14 +46,14 @@
                 <label class="income">Enter Amount:</label>
                 <input type="number" class="form-control fs-5" id="incomeAmount">
                 <div class="text-center mt-2">
-                    <button type="submit" class="btn btn-success fs-5 mt-4 me-2" onclick="addIncome()">Add Income</button>
+                    <button type="submit" class="btn btn-success mt-4 me-2" onclick="addIncome()">Add Income</button>
                 </div>
             </div>
 
             <div class="col-4 p-5 text-center my-5">
                 <div id="col1" class="p-5">
-                    <label class="fs-3" id="amounttext">Amount</label>
-                    <p id="amounts" class="bg-light rounded p-3 fs-3 ">0</p>
+                    <label class="fs-4" id="amounttext">Amount</label>
+                    <p id="amounts" class="bg-light rounded p-2 fs-3 ">0</p>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                 <label class="expense">Enter Amount:</label>
                 <input type="number" class="form-control fs-5" id="expenseAmount">
                 <div class="text-center">
-                    <button type="submit" class="btn btn-success fs-5 mt-4" onclick="addExpense()">Add Expense</button>
+                    <button type="submit" class="btn btn-success mt-4" onclick="addExpense()">Add Expense</button>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@
             </div>
 
             <div  id="clearAllBox" class="col-4 text-center">
-                <button class="btn btn-outline-danger mt-5 px-2 fs-5" onclick="deleteTableData()">Clear All</button>
+                <button class="btn btn-outline-danger mt-5 px-2" onclick="deleteTableData()">Clear All</button>
             </div>
 
             <div class="expenseTable col-4 p-5">
